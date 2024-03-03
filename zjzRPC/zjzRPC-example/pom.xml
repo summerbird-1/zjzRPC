@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>zjzRPC-transport</artifactId>
+    <artifactId>zjzRPC-example</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -18,17 +18,15 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>commons-io</groupId>
-            <artifactId>commons-io</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.eclipse.jetty</groupId>
-            <artifactId>jetty-servlet</artifactId>
+            <groupId>com.zjz</groupId>
+            <artifactId>zjzRPC-server</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.zjz</groupId>
-            <artifactId>zjzRPC-proto</artifactId>
+            <artifactId>zjzRPC-client</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+
     </dependencies>
 </project>

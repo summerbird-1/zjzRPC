@@ -16,6 +16,7 @@
         <module>zjzRPC-transport</module>
         <module>zjzRPC-server</module>
         <module>zjzRPC-client</module>
+        <module>zjzRPC-example</module>
     </modules>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
